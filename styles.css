@@ -81,7 +81,7 @@ font-weight: bold;
 display: block;
 margin-bottom: 0;
 }
-.buy{
+.panda-btn{
 border-radius: 6px;
 background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
 padding:10px 25px;
@@ -155,3 +155,50 @@ background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 11
     color: white;
     font-size:30px;
     font-weight: bold;}
+
+    /* shoes and bag section */
+    .shoes-backpack-parent{
+background-color: rgb(244,244,244);
+    }
+.shoes-section{
+    
+    padding: 50px 0;
+}
+.shoe-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.shoe-card{
+background-color: #FFFFFF;
+border-radius: 1px;
+text-align: center;
+padding: 25px;
+
+}
+.shoe-card img{
+    width: 336px;
+    height: 202px;
+}
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22x;
+    margin-bottom: 12px;
+}
+.shoe-card .panda-btn{
+    background: black
+}
+.shoe-see-more{
+    display: flex;
+    justify-content: space-between;
+}
+.shoe-see-more p{
+    font-size: 20px;
+    color: #FF9D00;
+}
+.shoe-see-more h2{
+    font-size: 36px;
+    font-weight: bold;
+}
